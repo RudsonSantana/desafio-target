@@ -1,0 +1,29 @@
+{
+  "name": "desafio-target",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start-1": "ts-node src/question01.ts",
+    "start-2": "ts-node src/question02.ts",
+    "start-3": "ts-node src/question03.ts",
+    "start-4": "ts-node src/question04.ts",
+    "start-5": "ts-node src/question05.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RudsonSantana/desafio-target.git"
+  },
+  "author": "Rudson Santana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RudsonSantana/desafio-target/issues"
+  },
+  "homepage": "https://github.com/RudsonSantana/desafio-target#readme",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
